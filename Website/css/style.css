@@ -1,0 +1,790 @@
+/*
+  Theme Name: Alstar
+  Theme URL: https://bootstrapmade.com/alstar-free-parallax-bootstrap-template/
+  Author: BootstrapMade.com
+  Author URL: https://bootstrapmade.com
+*/
+
+/* ================================
+Imports
+================================= */
+@import url('simpletextrotator.css');
+@import url('overwrite.css');
+@import url('animate.css');
+
+/* ================================
+General
+================================= */
+
+body{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 1.6em;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-size: 36px;
+}
+h2 {
+	font-size: 32px;
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 20px;
+}
+h5 {
+	font-size: 20px;
+}
+h6 {
+	font-size: 18px;
+}
+
+
+i:hover {
+	color: #999 !important;
+}
+
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+	color: #3a3a3a;
+	font-weight: 700;
+	margin-bottom: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.lead{
+	font-weight: 400;
+}
+
+button {
+	display: inline-block;
+	margin-bottom: 0;
+	margin-bottom: 10px;
+	padding: 6px 12px;
+	border: 1px solid transparent;
+	vertical-align: middle;
+	text-align: center;
+	white-space: nowrap;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.428571429;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+button.navbar-toggle {
+	background: #000000;
+	border: none;
+	color: #000;
+}
+
+.btn-theme,.btn-theme:hover,.btn-theme:focus{
+	color: #000;
+}
+.btn-theme:hover{
+	background: transparent !important;
+	border-color: #000;
+	color: #000;
+}
+
+/* ================================
+margin, padding
+================================= */
+.mar-top0 {
+	margin-top: 0;
+}
+.mar-top10 {
+	margin-top: 10px;
+}
+.mar-top20 {
+	margin-top: 20px;
+}
+.mar-top30 {
+	margin-top: 30px;
+}
+.mar-top40 {
+	margin-top: 40px;
+}
+
+
+/* Back to top button */
+.back-to-top {
+  position: fixed;
+  display: none;
+  padding: 6px 12px 9px 12px;
+  font-size: 16px;
+  border-radius: 2px;
+  right: 15px;
+  bottom: 15px;
+  transition: background 0.5s;
+  z-index:1000;
+}
+
+@media (max-width: 768px) {
+  .back-to-top {
+    bottom: 15px;
+  }
+}
+
+.back-to-top:focus {
+  outline: none;
+}
+
+/* ================================
+Navbar
+================================= */
+
+.navbar-custom{
+	padding-top:1rem;
+	padding-bottom:1rem;
+	background-color:rgba(125,125,125,0.8)}
+	
+.navbar-custom .navbar-brand{
+	top: -11px;
+	position: absolute;
+	text-transform:uppercase;
+	font-size:1rem;
+	letter-spacing:.1rem;
+	font-weight:700}
+	
+.navbar-custom .navbar-nav .nav-item .nav-link{
+	float: right;
+	text-transform:uppercase;
+	font-size:.8rem;
+	font-weight:700;
+	letter-spacing:.1rem}
+	
+
+.navbar-default {
+  background: #000000;
+}
+.nav-item:hover{
+	background-color:rgba(0,0,0,0.6) !important;
+}
+
+/* ================================
+Home sections
+================================= */
+
+.home-section {
+	width: 100%;
+	padding: 150px 0px 150px 0px;
+}
+
+/* --- heading --- */
+.section-heading {
+	margin-bottom: 50px;
+}
+
+.section-heading h2 {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.section-heading .heading-line {
+	margin:0 auto;
+	display: block;
+	height: 1px;
+	width: 80px;
+	background: #333;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+
+/* --- section bg var --- */
+
+.bg-white {
+	background: #fff;
+}
+
+.bg-gray {
+	background: #f8f8f8;
+}
+
+
+
+/* --- section content general color --- */
+
+.color-light h1,.color-light h2,.color-light h3,.color-light h4,.color-light h5,.color-light h6 {
+	color: #fff;
+}
+
+
+.color-light p {
+	color: #eee;
+}
+
+
+/* ==========================
+Parallax
+============================= */
+
+#parallax1{
+	background-image: url(../img/parallax/icahn.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	height:100%;
+	/*background-size: cover;*/
+	
+}
+#parallax2{
+	background-image: url(../img/parallax/scene.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:100%;
+	/*background-size: cover;*/
+}
+
+#parallax3{
+	background-image: url(../img/parallax/mtsinai.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:100%;
+	/*background-size: cover;*/
+}
+
+
+/* ================================
+Intro
+================================= */
+
+#intro {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#intro .item {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+#intro .item::before {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+#intro .carousel-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#intro .carousel-content {
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#intro h2 {
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#intro p {
+  width: 70%;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+  margin: 0 auto 30px auto;
+  color: #fff;
+}
+
+@media (max-width: 768px ) {
+  #intro h2 {
+    font-size: 36px;
+  }
+}
+
+#intro .carousel-inner .item {
+  transition-property: opacity;
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#intro .carousel-inner .item,
+#intro .carousel-inner .active.left,
+#intro .carousel-inner .active.right {
+  opacity: 0;
+}
+
+#intro .carousel-inner .active,
+#intro .carousel-inner .next.left,
+#intro .carousel-inner .prev.right {
+  opacity: 1;
+  transition: 0.9s;
+}
+
+#intro .carousel-inner .next,
+#intro .carousel-inner .prev,
+#intro .carousel-inner .active.left,
+#intro .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+#intro .carousel-control-prev,
+#intro .carousel-control-next {
+  color: #fff;
+  position: absolute;
+  top: calc(50% - 15px);
+}
+
+#intro .carousel-control-prev {
+  left: 20px;
+}
+
+#intro .carousel-control-next {
+  right: 20px;
+}
+
+#intro .carousel-control-next-icon,
+#intro .carousel-control-prev-icon {
+  background: none;
+  font-size: 48px;
+  line-height: 1;
+}
+
+#intro .carousel-indicators {
+  cursor: pointer;
+}
+
+
+/* ================================
+About
+================================= */
+.about-section {
+	width: 100%;
+	/*padding: 90px 0px 200px 90px;*/
+}
+
+#about .about-img {
+  height: 350px;
+  overflow: hidden;
+}
+
+#about .about-img img {
+  margin-left: -15px;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  #about .about-img {
+    height: auto;
+  }
+  #about .about-img img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+}
+
+#about .content h2 {
+  color: #333;
+  font-weight: 300;
+  font-size: 24px;
+  text-align: left;
+}
+
+#about .content h3 {
+  color: #777;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  font-style: italic;
+  text-align: left;
+}
+
+#about .content p {
+  line-height: 26px;
+  text-align: left;
+}
+
+#about .content p:last-child {
+  margin-bottom: 0;
+}
+
+/* ================================
+Team
+================================= */
+#team .box-team img {
+	margin-bottom: 20px;
+}
+.team-section {
+	width: 100%;
+	padding: 90px 0px 150px 90px;
+}
+
+#team .column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0px 40px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+#team .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+/*
+#team .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+/*
+#team .container {
+  padding: 0px 10px;
+}
+
+/* Clear floats */
+/*
+#team .container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#team .title {
+  color: grey;
+  margin-right: 960px;
+}
+
+#team h1{
+	margin-right: 950px;
+	font-size: 24px;
+}
+#team h2{ 
+	font-size: 32px;
+}
+#team p{
+	margin-right: 950px;
+}*/
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+#team .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+#team .container {
+  padding: 0px 10px;
+}
+
+#team .container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#team .title {
+  color: grey;
+  margin-right: 960px;
+}
+
+
+#team h1{
+	margin-right: 950px;
+	font-size: 24px;
+}
+#team h2{ 
+	font-size: 32px;
+}
+#team p2{
+	margin-right: 950px;
+}
+#team p{
+	margin-right: 10px;
+}
+
+
+/**************************/
+/* entire container, keeps perspective */
+#team .flip-container {
+	perspective: 1000px;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+#team .flip-container, .front, .back {
+	width: 215px;
+	height: 300px;
+}
+
+/* flip speed goes here */
+#team .flipper {
+	transition: 0.9s;
+	transform-style: preserve-3d;
+
+	position: relative;
+	
+}
+
+/* hide back of pane during swap */
+#team .front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+#team .front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+#team .back {
+	transform: rotateY(180deg);
+	overflow: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.mailto-link {
+	position: relative;
+	padding: 8px 0;
+}
+.mailto-message {
+	top: 1px;
+	left: 50%;
+	margin-bottom: -5px;
+	transform: translate(-50%, -100%);
+	position: absolute;
+	display: none;
+	width: 100px;
+	/*white-space: nowrap;*/
+	font-size: 12px;
+	background-color: black;
+	color: white;
+	padding: 2px 6px;
+	border-radius: 2px;
+	&:after {
+		content: '';
+	}
+}
+.mailto-link:hover .mailto-message,
+.mailto-link:focus .mailto-message,
+.mailto-link:focus-within .mailto-message {
+	display: block;
+}
+
+
+
+/* ================================
+Research
+================================= */
+
+.service-section {
+	width: 100%;
+	/*padding: 90px 0px 200px 90px;*/
+}
+.service.carousel h4,.service.carousel p {
+	text-align: left;
+}
+
+
+.service .carousel-control{
+	background: none;
+}
+
+.service .screenshot{
+	overflow: hidden;
+	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.service .screenshot img{
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 4px;
+	width: 400px;
+}
+
+.service .carousel-indicators {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 5px;
+	padding-bottom: 8px;
+	width: 100%;
+	background: #ffffff;
+}
+
+.service .carousel-indicators .active {
+	width: 45px;
+	height: 5px;
+	border: none;
+	border-radius: 0px;
+}
+
+.service .carousel-indicators li {
+	display: inline-block;
+	margin: 1px;
+	width: 45px;
+	height: 5px;
+	border: none;
+	border-radius: 0px;
+	background: #eeeeee;
+	text-indent: -999px;
+	cursor: pointer;
+}
+
+.service .carousel-indicators .active {
+  background: #00c1c1;
+}
+
+/* ================================
+Publication
+================================= */
+.publication-section {
+	width: 100%;
+	padding: 90px 0px 200px 90px;
+}
+	
+.publication {
+	position:relative;
+}
+
+.publication-title{
+	font-size:30px;
+	margin-top:30px;
+	margin-bottom:10px;
+}
+
+.publication-img img{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 4px;
+	width: 350px;
+	height: 300px;
+}
+
+
+.publication-title:hover{
+	text-decoration:underline;
+	text-decoration-color:#00c1c1;
+}
+
+.post-meta{
+	font-size:10px;
+	font-style:italic;
+	margin-top:0;
+	color:#00c1c1;
+}
+	
+	
+.publication .publication-lower{
+	display:block;
+	font-size:1rem;
+	font-weight:0}
+	
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.post-preview>a{color:#212529}
+.post-preview>a:focus,.post-preview>a:hover{text-decoration:none;color:#00c1c1}
+.post-preview>a>.post-title{font-size:30px;margin-top:30px;margin-bottom:10px}
+.post-preview>a>.post-subtitle{margin:0 0 10px}
+.post-preview>.post-meta{font-size:18px;font-style:italic;margin-top:0;color:#00c1c1}
+.post-preview>.post-meta>a{text-decoration:none;color:#00c1c1}
+.post-preview>.post-meta>a:focus,.post-preview>.post-meta>a:hover{text-decoration:underline;color:#00c1c1}@media only screen and (min-width:768px)
+
+{.post-preview>a>.post-title{font-size:36px}}
+
+
+/* ================================
+Bottom widget
+================================= */
+#bottom-widget {
+  overflow: hidden;
+}
+
+
+/* ================================
+Footer
+================================= */
+footer {
+	background: #00c1c1;
+	color: #fff;
+	padding: 50px 0 30px;
+}
+
+footer a {
+	color: #fff;
+}
+
+footer a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
